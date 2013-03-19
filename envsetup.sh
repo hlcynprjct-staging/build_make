@@ -1871,3 +1871,5 @@ function repopick() {
 validate_current_shell
 source_vendorsetup
 addcompletions
+
+export ANDROID_BUILD_TOP=$(gettop)
